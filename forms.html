@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action autocomplete="off">
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" required placeholder="ABC" autofocus name="uname"> <br>
+        <label for="">Mail-Id:</label>
+        <input type="E-Mail" pattern="[a-z]+[0-9][!#$%^&*]@gmail.com"><br>
+        <label for="">password</label>
+        <input type="password" name="pwd">
+        <label for="">DOB</label>
+        <input type="date"><br>
+        <label for="">Select Resume</label>
+        <input type="file"> <br>
+        <label form="">Mobile-number</label>
+        <input type="text" pattern="[6789][0-9]+" minlength="10" maxlength="10" title="mobile number starts with 6/7/8/9 and length should be 10"><br>
+        <label for="">Age</label>
+        <input type="number"><br>
+        <input type="Age"><br>
+        <input type="radio" name="gen">Male
+        <input type="radio" name="gen">female<br>
+        <label for="">Sports</label>
+        <input type="checkbox">Cricket
+        <input type="checkbox">Kho-Kho
+        <input type="checkbox">Kabbaddi
+        <input type="checkbox">Badminton<br>
+        <input type="Submit" value="login"><br>
+        <input type="reset"><br>
+    </form>
+</body>
+</html>
